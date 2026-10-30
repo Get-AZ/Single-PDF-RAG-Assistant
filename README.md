@@ -1,7 +1,7 @@
 
 # Single PDF RAG Assistant
 
-![Single PDF RAG Assistant](assets/Single%20PDF%20RAG%20Assistant..png)
+![Single PDF RAG Assistant](Single%20PDF%20RAG%20Assistant..png)
 
 Ask questions about one PDF and inspect the passages supporting each answer.
 Built by **Getamesay Zegeye** using Streamlit, local MiniLM sentence embeddings,
