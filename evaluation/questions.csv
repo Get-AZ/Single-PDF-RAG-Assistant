@@ -1,0 +1,13 @@
+id,category,question,expected_answer,expected_pdf_pages
+Q1,direct,How many layers does the Transformer encoder contain?,6 encoder layers.,3
+Q2,direct,What are the two sublayers in each encoder layer?,Multi-head self-attention and a position-wise feed-forward network.,3
+Q3,direct,Why does scaled dot-product attention divide by the square root of the key dimension?,To counteract large dot products that push softmax into regions with very small gradients.,4
+Q4,direct,"How many attention heads are used, and what are the key and value dimensions per head?",8 heads; keys and values each have dimension 64 per head.,5
+Q5,direct,What activation function is used between the feed-forward network's two linear transformations?,ReLU.,5
+Q6,direct,"Why are positional encodings needed, and where are they added?",They provide position/order information; added to embeddings at the bottoms of encoder and decoder stacks.,6
+Q7,direct,What hardware and training schedule were used for the base Transformer?,"8 NVIDIA P100 GPUs; 100,000 steps; approximately 12 hours.",7
+Q8,synthesis,How do the encoder and decoder differ in their attention mechanisms?,Encoder self-attention; decoder masked self-attention and encoder-decoder attention.,3;5
+Q9,synthesis,"How does the decoder prevent future-token access, and where do encoder-decoder attention's queries, keys, and values originate?","Mask future positions; queries from decoder, keys and values from encoder output.",3;5
+Q10,missing,"What exact electricity cost, in dollars, was required to train the base Transformer?",No monetary electricity cost is provided.,
+Q11,missing,What BLEU score did the Transformer achieve on English-to-Amharic translation?,No English-to-Amharic result is reported.,
+Q12,missing,What response time did a Gemini Flash-Lite PDF chatbot achieve in this paper?,The paper does not evaluate that chatbot.,
