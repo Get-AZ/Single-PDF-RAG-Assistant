@@ -1,3 +1,5 @@
+![Single PDF RAG Assistant — Python, Streamlit, MiniLM, FAISS and Gemini](Single PDF RAG Assistant.png)
+
 # Single PDF RAG Assistant
 
 Ask questions about one PDF and inspect the passages supporting each answer.
