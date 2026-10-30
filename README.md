@@ -1,4 +1,4 @@
-![Single PDF RAG Assistant — Python, Streamlit, MiniLM, FAISS and Gemini](Single PDF RAG Assistant.png)
+![Single PDF RAG Assistant — Python, Streamlit, MiniLM, FAISS and Gemini](Single PDF RAG Assistant..png)
 
 # Single PDF RAG Assistant
 
